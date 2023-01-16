@@ -2,10 +2,14 @@ package com.kodego.app.inventory.app.orgino.harvest_invest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kodego.app.inventory.app.orgino.harvest_invest.databinding.ActivityProfilePageBinding
 
 class ProfilePage : AppCompatActivity() {
+    lateinit var binding: ActivityProfilePageBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile_page)
+        binding = ActivityProfilePageBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
     }
 }
