@@ -15,18 +15,26 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        val goToProfileButton = findViewById<Button>(R.id.GoToProfile)
-        goToProfileButton.setOnClickListener {
+        binding.goToProfile.setOnClickListener {
             val intentProfilePage = Intent(this, ProfilePage::class.java)
             startActivity(intentProfilePage)
         }
-        val goToCheckBalancePage = findViewById<Button>(R.id.checkBalance)
-        goToCheckBalancePage.setOnClickListener {
-            val intentCheckBalancePage = Intent(this,goToCheckBalancePage::class.java)
-            startActivity(intentCheckBalancePage)
 
+        binding.checkBalance.setOnClickListener {
+            val intentCheckBalancePage = Intent(this,BalancePage::class.java)
+            startActivity(intentCheckBalancePage)
         }
+
+        binding.topUp.setOnClickListener {
+            val intentTopUp = Intent(this,TopUpPage::class.java)
+            startActivity(intentTopUp)
+        }
+
+        binding.investButton.setOnClickListener {
+            val intentInvestPage = Intent(this,InvestPage::class.java)
+            startActivity(intentInvestPage)
+        }
+
     }
 
 }

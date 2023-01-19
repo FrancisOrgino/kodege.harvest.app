@@ -4,6 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/farmnewbg"
     tools:context=".TopUpPage">
 
+    <ImageButton
+        android:id="@+id/homeButtonFromTopUp"
+        android:layout_width="104dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/gCashButton"
+        android:layout_width="141dp"
+        android:layout_height="63dp"
+        android:text="Gcash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeButtonFromTopUp"
+        app:layout_constraintVertical_bias="0.107"
+        tools:layout_editor_absoluteX="151dp" />
+
+    <Button
+        android:id="@+id/sevenElevenButton"
+        android:layout_width="141dp"
+        android:layout_height="63dp"
+        android:text="7ELEVEN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeButtonFromTopUp"
+        app:layout_constraintVertical_bias="0.301"
+        tools:layout_editor_absoluteX="151dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

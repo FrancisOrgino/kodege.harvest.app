@@ -5,29 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/farmnewbg"
-    tools:context=".InvestPage">
+    tools:context=".StockViewPage">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton2"
         android:layout_width="104dp"
         android:layout_height="96dp"
         android:layout_marginStart="148dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077"
+        app:layout_constraintVertical_bias="0.081"
         app:srcCompat="@mipmap/ic_launcher_foreground" />
-
-    <Button
-        android:id="@+id/projectListButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Load Project List"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.262"
-        tools:layout_editor_absoluteX="112dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
