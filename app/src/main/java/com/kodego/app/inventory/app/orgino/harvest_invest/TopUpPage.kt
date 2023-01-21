@@ -21,5 +21,10 @@ class TopUpPage : AppCompatActivity() {
             val intentSevenEleven = Intent(this,SevenElevenPage::class.java)
             startActivity(intentSevenEleven)
         }
+
+        binding.homeButtonFromTopUp.setOnClickListener{
+            val intentHomeButtonFromTopUp = Intent(this,MainActivity::class.java)
+            startActivity(intentHomeButtonFromTopUp)
+        }
     }
 }

@@ -34,6 +34,10 @@ class MainActivity : AppCompatActivity() {
             val intentInvestPage = Intent(this,InvestPage::class.java)
             startActivity(intentInvestPage)
         }
+        binding.AvailableStocksButton.setOnClickListener {
+            val IntentStockPage = Intent(this,StockViewPage::class.java)
+            startActivity(IntentStockPage)
+        }
 
     }
 

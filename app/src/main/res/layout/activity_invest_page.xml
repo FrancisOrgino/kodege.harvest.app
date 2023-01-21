@@ -8,7 +8,7 @@
     tools:context=".InvestPage">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/homeButtonFromInvestPage"
         android:layout_width="104dp"
         android:layout_height="96dp"
         android:layout_marginStart="148dp"
