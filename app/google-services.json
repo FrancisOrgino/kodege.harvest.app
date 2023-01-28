@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604848271829",
+    "project_id": "harvest-invest-app",
+    "storage_bucket": "harvest-invest-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604848271829:android:601af59178bea3c5e28d5c",
+        "android_client_info": {
+          "package_name": "com.kodego.app.inventory.app.orgino.harvest_invest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604848271829-45ed8rmomeba45kriquqj9fmrv4fn013.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV2XnAT67OOupCICtxXh1N8hOg_JUGKbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604848271829-45ed8rmomeba45kriquqj9fmrv4fn013.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
